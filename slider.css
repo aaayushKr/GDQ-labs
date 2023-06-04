@@ -236,13 +236,14 @@ a:link {
   display: flex;
   justify-content: flex-end;
   margin-right: 6%;
-  margin-top: 3%;
+  margin-top: 6%;
 }
 .quantum-computing {
-  background-color: #e5e5e6;
+  /* background-color: #e5e5e6; */
   margin: 5%;
-  padding-top: 1%;
+  /* padding-top: 1%; */
   padding-bottom: 5%;
+  color: #fff;
 }
 .first-title {
   font-weight: 700;
@@ -295,14 +296,18 @@ a:link {
   margin-top: 2%;
   font-size: 17px;
   background-color: #5d75f5;
-  border: none;
-  transition: transform 0.5s;
+  border: 2px solid #5d75f5;
+  transition: 0.4s;
   font-weight: 700;
   color: white;
+  border-radius: 6px;
 }
+
 .btn-type-1:hover {
-  transform: scale(1.07);
-  cursor: pointer;
+  background-color: #ffffff;
+  /* border: none; */
+  color: #5d75f5;
+  text-decoration: none;
 }
 .footer-btn {
   padding: 1% 5%;
@@ -351,7 +356,7 @@ hr {
   margin-top: 2%;
 }
 button {
-  height: 35px;
+  /* height: 35px; */
   width: 169px;
   background-color: #5d75f5;
   color: #fff;
